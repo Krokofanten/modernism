@@ -12,6 +12,6 @@ The website is meant to provide information about the literary period *modernism
 Hassan **(Group leader)**, Johan, Oliver, Maximilian and Samir
 
 ## Copyright notice
-Copyright (c) 2017 (Listed contributors)
+This project is licensed under the GNU-GPLv3 License.
 
 ![IT-Gymnasiet Logo](http://weloveitg.se/header-logo.jpg)
