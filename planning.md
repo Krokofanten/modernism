@@ -2,7 +2,9 @@
 This document details the planning of the website.
 
 ## Home
-This is the main page (landing page).
+*This is the main page (landing page).*
+
+The home page contains the actual content/material (text).
 
 ## Quiz
 A quiz on modernism.
