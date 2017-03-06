@@ -14,5 +14,4 @@ Hassan, Johan, Oliver, Maximilian and Samir
 ## Copyright notice
 Copyright (c) 2017 (Listed contributors)
 
-
 ![IT-Gymnasiet Logo](http://weloveitg.se/header-logo.jpg)
