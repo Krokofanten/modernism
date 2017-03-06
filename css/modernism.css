@@ -12,6 +12,7 @@ html {
   	-webkit-text-size-adjust: 100%;
   	-ms-overflow-style: scrollbar;
   	-webkit-tap-highlight-color: transparent;
+  	height: 100%;
 }
 
 body {
@@ -20,19 +21,37 @@ body {
   	font-size: 1rem;
   	font-weight: normal;
   	line-height: 1.5;
+  	height: 100%;
 }
 
 .title {
 	font-size: 2.0rem;
+	line-height: 0.5;
 	color: rgb(51, 51, 51);
 }
 
 .subtitle {
 	font-size: 1.25rem;
+	line-height: 0.5;
 	color: rgb(102, 102, 102);
 }
 
 .block {
 	display: block;
 	padding: 0.5rem;
+}
+
+.content {
+	min-height: 100%;
+	margin-bottom: -2.5rem;
+}
+
+.copyright-footer {
+	position: bottom-sticky;
+	color: rgb(255, 255, 255);
+	background-color: rgb(51, 51, 51);
+	width: 100%;
+	padding: 0.5rem 0rem 0.5rem 0rem;
+	margin: 0rem;
+	text-align: center;
 }
