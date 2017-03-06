@@ -1,6 +1,8 @@
 # Modernism
 This repository is the home of our group's English modernism literary period website.
 
+Group name: *Magic zombies* (randomly generated)
+
 You can view the page [here](https://devmaximilian.github.io/modernism/).
 
 ## English literary periods
@@ -11,5 +13,6 @@ Hassan, Johan, Oliver, Maximilian and Samir
 
 ## Copyright notice
 Copyright (c) 2017 (Listed contributors)
+
 
 ![IT-Gymnasiet Logo](http://weloveitg.se/header-logo.jpg)
