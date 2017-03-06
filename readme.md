@@ -1,5 +1,5 @@
 # Modernism
-This repository is the home of our group's English literary periods website, which is modernism in our case.
+This repository is the home of our group's English modernism literary period website.
 
 You can view the page [here](https://devmaximilian.github.io/modernism/).
 
