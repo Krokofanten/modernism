@@ -57,3 +57,16 @@ body {
 	margin: 0rem;
 	text-align: center;
 }
+
+/**
+ * Unsorted
+ */
+
+.link {
+	text-decoration: none;
+	color: rgb(79, 79, 79);
+}
+
+.link:hover {
+	color: rgb(19, 19, 19);
+}
