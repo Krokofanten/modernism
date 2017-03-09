@@ -70,3 +70,11 @@ body {
 .link:hover {
 	color: rgb(19, 19, 19);
 }
+
+.header {
+	background-image: url(https://pixabay.com/get/eb35b80d2af2053ed1534705fb0938c9bd22ffd41db9184193f6c170af/black-2092264_1920.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 1.5rem !important;
+}
