@@ -4,15 +4,28 @@
 
 var quiz = {};
 
-quiz.questions = [];
+quiz.questions = {
+  1:"During what span of time did Modernism take place?",
+  2:"Which of the following authors are iconic for Modernism?"
+};
 
-quiz.questions += {
-  "question":"During what span of time did Modernism take place?",
-  "answers":[{
-    1:"1920",
-  }],
-  };
-quiz.questions[0]
+/**
+ * Quiz question types
+ * 0: multiple option
+ * 1: multiple choice
+ */
+
+quiz.types = {
+  1:0,
+  2:1
+};
+
+quiz.answers = {
+  1:["1500 - 1660", "1660 - 1790", "1790 - 1830", " 1830 - 1901", "1901 - 1945"],
+  2:["J. R. R. Tolkien", "Ernest Hemingway", "William Shakesphere"]
+};
+
+// Prevent cheating by sending answers to another secret script to check for answers.
 
 console.log(quiz);
-console.log(quiz.questions[0]);
+console.log(quiz.questions.question);
