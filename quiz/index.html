@@ -47,7 +47,14 @@
       for(i = 1;i <= 2;i++) {
         var question = document.createElement("P");
         question.innerHTML = quiz.questions[i];
+        var answer = document.createElement("SELECT");
+        c = 0;
+        while(c < quiz.answers[i].length) {
+          answer.innerHTML += `<option value=\"${c}\">${quiz.answers[i][c]}</option>`;
+          c += 1;
+        }
         form.appendChild(question);
+        form.appendChild(answer);
       }
     }
     </script>
