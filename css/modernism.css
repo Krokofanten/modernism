@@ -73,10 +73,11 @@ body {
 
 @media only screen and (max-width: 640px) {
 	.header {
-		background-image: url(https://pixabay.com/get/eb35b80d2af2053ed1534705fb0938c9bd22ffd41db9184193f6c170af/black-2092264_1920.jpg);
+		background-image: url(../img/steam-train-1386248_1920.jpg);
+		background-attachment: fixed;
 		background-repeat: no-repeat;
-		background-size: cover;
 		background-position: center;
+		background-size: cover;
 		padding: 1.5rem !important;
 		transition: 0.5s ease;
 	}
@@ -91,10 +92,11 @@ body {
 }
 @media only screen and (min-width: 640px) {
 	.header {
-		background-image: url(https://pixabay.com/get/eb35b80d2af2053ed1534705fb0938c9bd22ffd41db9184193f6c170af/black-2092264_1920.jpg);
+		background-image: url(../img/steam-train-1386248_1920.jpg);
+		background-attachment: fixed;
 		background-repeat: no-repeat;
-		background-size: cover;
 		background-position: center;
+		background-size: cover;
 		padding: 2.5rem !important;
 		transition: 0.5s ease;
 	}
