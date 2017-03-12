@@ -75,7 +75,7 @@
 	.header-inner {
 		background-color: rgba(0, 0, 0, .5);
 		padding: 0rem !important;
-		padding-left: 1rem !important;
+		padding: 1rem !important;
 	}
 	.brand {
 		font-size: 1.25rem !important;
@@ -102,6 +102,7 @@
 		background-color: rgba(0, 0, 0, .5);
 		padding: 0rem !important;
 		padding-left: 1rem !important;
+		padding-right: 1rem !important;
 	}
 	.brand {
 		font-size: 1.65rem !important;
