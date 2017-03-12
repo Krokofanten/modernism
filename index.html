@@ -18,11 +18,11 @@
   	<!-- Header -->
   	<header class="header">
   		<!-- Navigation -->
-      <nav class="navbar navbar-toggleable-md navbar-inverse header-inner">
+      <nav class="navbar navbar-toggleable-sm navbar-inverse header-inner">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand brand" href="./index.html">Modernism</a>
+        <a class="navbar-brand brand" href="#mainNavigation">Modernism</a>
         <div class="collapse navbar-collapse justify-content-end" id="mainNavigation">
           <div class="navbar-nav">
             <!--<a class="nav-item nav-link active nav-com" href="#introduction">Introduction</a>-->
@@ -32,7 +32,7 @@
             <a class="nav-item nav-link nav-com" href="#economy">Economy</a>
             <a class="nav-item nav-link nav-com" href="#politics">Politics</a>
             <!--<a class="nav-item nav-link nav-com" href="#about">About</a>-->
-            <a class="btn btn-outline-secondary nav-com" href="./quiz/index.html">Quiz</a>
+            <a class="nav-item nav-link nav-com" href="./quiz/index.html">Quiz</a>
           </div>
         </div>
       </nav>
@@ -40,47 +40,65 @@
 
   	<!-- Main content -->
     <div class="container-fluid">
-      <div class="container p-5">
+      <div class="container p-5 mb-4">
         <h1 class="title">Modernism | English 6</h1>
         <h2 class="subtitle">Sub-placeholder</h2>
         <p>
           Some more placeholder text...
         </p>
+
+        <!-- Back to top link -->
+        <a class="btn btn-secondary border-0 rounded-0 bg-faded lead" href="#mainNavigation">Back to top</a>
       </div>
-      <div class="container p-5">
+      <div class="container p-5 mb-4">
         <h1 class="title">J. R. R. Tolkien</h1>
         <h2 class="subtitle">1892 - 1973</h2>
         <p>
           Some text about Tolkien...
         </p>
+
+        <!-- Back to top link -->
+        <a class="btn btn-secondary border-0 rounded-0 bg-faded lead" href="#mainNavigation">Back to top</a>
       </div>
-      <div class="container">
+      <div class="container mb-4" id="history">
         <h1 class="title">History</h1>
         <h2 class="subtitle">...</h2>
         <p>
           ...
         </p>
+
+        <!-- Back to top link -->
+        <a class="btn btn-secondary border-0 rounded-0 bg-faded lead" href="#mainNavigation">Back to top</a>
       </div>
-      <div class="container">
+      <div class="container mb-4" id="culture">
         <h1 class="title">Culture</h1>
         <h2 class="subtitle">...</h2>
         <p>
           ...
         </p>
+
+        <!-- Back to top link -->
+        <a class="btn btn-secondary border-0 rounded-0 bg-faded lead" href="#mainNavigation">Back to top</a>
       </div>
-      <div class="container">
+      <div class="container mb-4" id="technology">
         <h1 class="title">Technology</h1>
         <h2 class="subtitle">...</h2>
         <p>
           ...
         </p>
+
+        <!-- Back to top link -->
+        <a class="btn btn-secondary border-0 rounded-0 bg-faded lead" href="#mainNavigation">Back to top</a>
       </div>
-      <div class="container">
+      <div class="container mb-4" id="economy">
         <h1 class="title">Economy</h1>
         <h2 class="subtitle">...</h2>
         <p>
           ...
         </p>
+
+        <!-- Back to top link -->
+        <a class="btn btn-secondary border-0 rounded-0 bg-faded lead" href="#mainNavigation">Back to top</a>
       </div>
 
       <!-- Remove later-->
@@ -140,9 +158,14 @@
                 <!--<a class="nav-link" href="#">Link</a>-->
               </nav>
             </div>
-            <a class="btn btn-secondary bg-faded border-0 rounded-0 text-center lead" data-toggle="collapse" href="#p-sources" aria-expanded="false" aria-controls="p-sources">
+
+            <!-- Source -->
+            <a class="btn btn-secondary border-0 rounded-0 bg-faded text-center lead" data-toggle="collapse" href="#p-sources" aria-expanded="false" aria-controls="p-sources">
               Sources
             </a>
+
+            <!-- Back to top link -->
+            <a class="btn btn-secondary border-0 rounded-0 bg-faded lead" href="#mainNavigation">Back to top</a>
           </div>
         </div>
 
@@ -205,9 +228,12 @@
               <div class="container mb-3">
                 <div class="collapse" id="th">
                   <img src="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/26_theodore_roosevelt.jpg" class="img-fluid" alt="">
-                  <div class="republican">
+                  <div class="republican bg-inverse">
                     <p class="">In office 1901 - 1909</p>
-                    <p class="small">Source: whitehouse.gov</p>
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="https://www.whitehouse.gov/1600/Presidents"><span class="badge badge-pill badge-primary">.GOV</span> Theodore Roosevelt | The White House</a>
+                    </div>
                   </div>
                 </div>
                 <a class="btn-block text-white text-center lead republican" data-toggle="collapse" href="#th" aria-expanded="false" aria-controls="th">
@@ -217,9 +243,12 @@
               <div class="container mb-3">
                 <div class="collapse" id="wht">
                   <img src="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/27_william_howard_h_taft.jpg" class="img-fluid" alt="">
-                  <div class="republican">
+                  <div class="republican bg-inverse">
                     <p class="">In office 1909 - 1913</p>
-                    <p class="small">Source: whitehouse.gov</p>
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="https://www.whitehouse.gov/1600/Presidents"><span class="badge badge-pill badge-primary">.GOV</span> William Howard Taft | The White House</a>
+                    </div>
                   </div>
                 </div>
                 <a class="btn-block text-white text-center lead republican" data-toggle="collapse" href="#wht" aria-expanded="false" aria-controls="wht">
@@ -229,9 +258,12 @@
               <div class="container mb-3">
                 <div class="collapse" id="ww">
                   <img src="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/28_woodrow_wilson.jpg" class="img-fluid" alt="">
-                  <div class="democrat">
+                  <div class="democrat bg-inverse">
                     <p class="">In office 1913 - 1921</p>
-                    <p class="small">Source: whitehouse.gov</p>
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="https://www.whitehouse.gov/1600/Presidents"><span class="badge badge-pill badge-primary">.GOV</span> Woodrow Wilson | The White House</a>
+                    </div>
                   </div>
                 </div>
                 <a class="btn-block text-white text-center lead democrat" data-toggle="collapse" href="#ww" aria-expanded="false" aria-controls="ww">
@@ -241,9 +273,12 @@
               <div class="container mb-3">
                 <div class="collapse" id="wgh">
                   <img src="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/29_warren_g_harding.jpg" class="img-fluid" alt="">
-                  <div class="republican">
+                  <div class="republican bg-inverse">
                     <p class="">In office 1921 - 1923</p>
-                    <p class="small">Source: whitehouse.gov</p>
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="https://www.whitehouse.gov/1600/Presidents"><span class="badge badge-pill badge-primary">.GOV</span> Warren G. Harding | The White House</a>
+                    </div>
                   </div>
                 </div>
                 <a class="btn-block text-white text-center lead republican" data-toggle="collapse" href="#wgh" aria-expanded="false" aria-controls="wgh">
@@ -253,9 +288,12 @@
               <div class="container mb-3">
                 <div class="collapse" id="cc">
                   <img src="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/30_calvin_coolidge.jpg" class="img-fluid" alt="">
-                  <div class="republican">
+                  <div class="republican bg-inverse">
                     <p class="">In office 1923 - 1929</p>
-                    <p class="small">Source: whitehouse.gov</p>
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="https://www.whitehouse.gov/1600/Presidents"><span class="badge badge-pill badge-primary">.GOV</span> Calvin Coolidge | The White House</a>
+                    </div>
                   </div>
                 </div>
                 <a class="btn-block text-white text-center lead republican" data-toggle="collapse" href="#cc" aria-expanded="false" aria-controls="cc">
@@ -265,9 +303,12 @@
               <div class="container mb-3">
                 <div class="collapse" id="hh">
                   <img src="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/31_herbert_hoover.jpg" class="img-fluid" alt="">
-                  <div class="republican">
+                  <div class="republican bg-inverse">
                     <p class="">In office 1929 - 1933</p>
-                    <p class="small">Source: whitehouse.gov</p>
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="https://www.whitehouse.gov/1600/Presidents"><span class="badge badge-pill badge-primary">.GOV</span> Herbert Hoover | The White House</a>
+                    </div>
                   </div>
                 </div>
                 <a class="btn-block text-white text-center lead republican" data-toggle="collapse" href="#hh" aria-expanded="false" aria-controls="hh">
@@ -277,10 +318,13 @@
               <div class="container mb-3">
                 <div class="collapse" id="fdr">
                   <img src="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/32_franklin_d_roosevelt.jpg" class="img-fluid" alt="">
-                  <div class="democrat">
+                  <div class="democrat bg-inverse">
                     <p class="">In office 1934 - 1945</p>
                     <p class="">Only president to serve for 4 terms.</p>
-                    <p class="small">Source: whitehouse.gov</p>
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="https://www.whitehouse.gov/1600/Presidents"><span class="badge badge-pill badge-primary">.GOV</span> Franklin Delano Roosevelt | The White House</a>
+                    </div>
                   </div>
                 </div>
                 <a class="btn-block text-white text-center lead democrat" data-toggle="collapse" href="#fdr" aria-expanded="false" aria-controls="fdr">
@@ -314,8 +358,25 @@
     </div>
 
     <!-- Footer -->
-    <footer class="container-fluid bg-inverse text-white text-center">
-      <div class="container p-3">
+    <footer class="container-fluid bg-inverse text-white p-3">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="container-fluid">
+            <p class="lead">
+              About
+            </p>
+            <p>
+              ...
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="container-fluid">
+            ...
+          </div>
+        </div>
+      </div>
+      <div class="container text-center small">
         Copyright (c) 2017 Hassaan, Johan, Oliver, Maximilian and Samir
       </div>
     </footer>
