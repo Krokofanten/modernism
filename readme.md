@@ -9,7 +9,7 @@ You can view the page [here](https://devmaximilian.github.io/modernism/).
 The website is meant to provide information about the literary period *modernism*.
 
 ## Contributors
-Hassan **(Group leader)**, Johan, Oliver, Maximilian and Samir
+Hassaan **(Group leader)**, Johan, Oliver, Maximilian and Samir
 
 ## Copyright notice
 This project is licensed under the GNU-GPLv3 License.

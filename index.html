@@ -16,45 +16,705 @@
   <body>
 
   	<!-- Header -->
-  	<header>
+  	<header class="header">
   		<!-- Navigation -->
-      <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+      <nav class="navbar navbar-toggleable-sm navbar-inverse header-inner">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="./index.html">English 6 | Mordernism</a>
+        <a class="navbar-brand brand" href="#mainNavigation">Modernism</a>
         <div class="collapse navbar-collapse justify-content-end" id="mainNavigation">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="./index.html">Home</a>
-            <a class="nav-item nav-link" href="./about/index.html">About</a>
-            <a class="btn btn-outline-secondary" href="./quiz/index.html">Quiz</a>
+            <!--<a class="nav-item nav-link active nav-com" href="#introduction">Introduction</a>-->
+            <a class="nav-item nav-link nav-com" href="#history">History</a>
+            <a class="nav-item nav-link nav-com" href="#culture">Culture</a>
+            <a class="nav-item nav-link nav-com" href="#technology">Technology</a>
+            <a class="nav-item nav-link nav-com" href="#economy">Economy</a>
+            <a class="nav-item nav-link nav-com" href="#politics">Politics</a>
+            <!--<a class="nav-item nav-link nav-com" href="#about">About</a>-->
+            <a class="nav-item nav-link nav-com" href="./quiz/index.html">Quiz</a>
           </div>
         </div>
       </nav>
   	</header>
 
+    <!-- Nav when scrolling has started (Hidden before scrolling) -->
+    <header class="bg-inverse sticky-top">
+      <!-- Navigation -->
+      <nav class="navbar navbar-toggleable-sm navbar-inverse pt-0 pb-0">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mainNavigationSmall" aria-controls="mainNavigationSmall" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--<a class="navbar-brand brand" href="#mainNavigation">Modernism</a>-->
+        <div class="collapse navbar-collapse justify-content-center" id="mainNavigationSmall">
+          <div class="navbar-nav">
+            <!--<a class="nav-item nav-link active nav-com" href="#introduction">Introduction</a>-->
+            <a class="nav-item nav-link nav-com p-3" href="#history">History</a>
+            <a class="nav-item nav-link nav-com p-3" href="#culture">Culture</a>
+            <a class="nav-item nav-link nav-com p-3" href="#technology">Technology</a>
+            <a class="nav-item nav-link nav-com p-3" href="#economy">Economy</a>
+            <a class="nav-item nav-link nav-com p-3" href="#politics">Politics</a>
+            <!--<a class="nav-item nav-link nav-com" href="#about">About</a>-->
+            <a class="nav-item nav-link nav-com p-3" href="./quiz/index.html">Quiz</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End nav when scrolling has started -->
+
   	<!-- Main content -->
     <div class="container-fluid">
-      <div class="container p-5">
-        <h1 class="title">Modernism</h1>
-        <h2 class="subtitle">Sub-placeholder</h2>
+      <div class="container p-5 mb-4">
+        <h1 class="title">Modernism | English 6</h1>
+        <h2 class="subtitle">Year 1901 to 1945</h2>
         <p>
           Some more placeholder text...
         </p>
+
+        <!-- Back to top link -->
+        <a class="btn btn-secondary border-0 rounded-0 bg-faded lead" href="#mainNavigation">Back to top</a>
       </div>
-      <div class="container p-5">
+      <div class="container p-5 mb-4">
         <h1 class="title">J. R. R. Tolkien</h1>
         <h2 class="subtitle">1892 - 1973</h2>
         <p>
           Some text about Tolkien...
         </p>
+
+        <!-- Back to top link -->
+        <a class="btn btn-secondary border-0 rounded-0 bg-faded lead" href="#mainNavigation">Back to top</a>
+      </div>
+      <div class="container mb-4" id="history">
+        <h1 class="title">History</h1>
+        <h2 class="subtitle">...</h2>
+        <p>
+          ...
+        </p>
+
+        <!-- Back to top link -->
+        <a class="btn btn-secondary border-0 rounded-0 bg-faded lead" href="#mainNavigation">Back to top</a>
+      </div>
+      <div class="container mb-4" id="culture">
+        <h1 class="title">Culture</h1>
+        <h2 class="subtitle">...</h2>
+        <p>
+          ...
+        </p>
+
+        <!-- Back to top link -->
+        <a class="btn btn-secondary border-0 rounded-0 bg-faded lead" href="#mainNavigation">Back to top</a>
+      </div>
+      <div class="container mb-4" id="technology">
+        <h1 class="title">Technology</h1>
+        <h2 class="subtitle">...</h2>
+        <p>
+          ...
+        </p>
+
+        <!-- Back to top link -->
+        <a class="btn btn-secondary border-0 rounded-0 bg-faded lead" href="#mainNavigation">Back to top</a>
+      </div>
+      <div class="container mb-4" id="economy">
+        <h1 class="title">Economy</h1>
+        <h2 class="subtitle">...</h2>
+        <p>
+          ...
+        </p>
+
+        <!-- Back to top link -->
+        <a class="btn btn-secondary border-0 rounded-0 bg-faded lead" href="#mainNavigation">Back to top</a>
+      </div>
+
+      <!-- Example of how a text can be formatted -->
+      <div class="container-fluid pt-5" id="template">
+        <div class="container mb-3">
+          <h1 class="title">Template</h1>
+          <h2 class="subtitle">Template subheading</h2>
+        </div>
+        <div class="container">
+          <p class="lead">
+            <strong>Template focus text.</strong>
+          </p>
+          <p>
+            Template text, normal.
+          <p/>
+
+          <!-- Back to top link -->
+          <a class="btn btn-secondary border-0 rounded-0 bg-faded lead" href="#mainNavigation">Back to top</a>
+        </div>
+      </div>
+
+      <!-- Maximilians Text -->
+      <div class="container-fluid pt-5" id="politics">
+        <div class="container mb-3">
+          <h1 class="title">Politics & Societal life</h1>
+          <h2 class="subtitle">Maximilian Wendel</h2>
+        </div>
+        <div class="container">
+          <p>
+            <span class="badge badge-pill badge-danger">OUTDATED</span>
+          </p>
+          <p class="lead">
+            <strong>The beginning to mid 20th Century is characterized by devastating conflicts and their impact on shaping society, creating democracies and dictatorships. These drastic changes can be seen in the works by many authors during this period.</strong>
+          </p>
+          <p>
+            Up until The Great War (WWI) broke out, modernism was just a small movement brewing under the surface. With war raging, it now grew rapidly. Literature now reflected people’s will to escape the horrors of the reality they lived.
+          <p/>
+          <p>
+            In the early 20th Century, France was the only “real” democracy amongst the greater countries in Europe. For instance, in Britain only 60% of the adult male population could vote. In The United States of America, all men could vote and they had a democratic process in place when electing new leaders.
+          </p>
+          <p>
+            This era was tainted by Imperialism and Nationalism, which led to tension between nations. Imperialism was the idea of expanding the nation’s borders and territories. Nationalism was the love for one’s own country and the idea of being self-ruled.
+          </p>
+          <p>
+            At first, this period was very prosperous with great advancements in infrastructure and technology. As a consequence, poverty grew, unemployment and greater divide between the social classes also occurred. After the WWI, devastated societies strived to rebuild what they had lost and improve life for everyone. Big changes were implemented.  For instance, women were now allowed to vote (to some extent), healthcare was provided on a larger scale and education was put into focus. The Great Depression struck it hit society hard, making people’s lives very difficult.
+          </p>
+          <p>
+            U.S. President, Franklin D. Roosevelt, introduced The New Deal to repair the economic state of the country and in Britain the governing party had a similar solution. The New Deal focused on the “3 Rs”, relief, recovery and reform. Both solutions had the same principals – to decrease unemployment, implement social security and make life better for the people. The financial reforms were applied to prevent yet another depression.
+          </p>
+          <p>
+            Modernism takes place during some of the world's greatest conflicts. This can often be seen in the literature from this war-torn time. During the beginning to mid 20th Century, we see tension rise in the world as new ideologies are formed while older ones fade. For instance, Nazism (nationalism) and Communism were two big ideologies that gained a lot of support quickly. The democracies of the western world felt that they were threatened by the rapid expansion of Nazi-Germany, but did not act since they wanted to avoid yet another war. Eventually they felt they had to stop the growing threat. Hence, The Second World War.
+          </p>
+          <p>
+            <span class="badge badge-pill badge-warning">IN PROGRESS</span>
+          </p>
+          <p>
+            All in all, the political playing-field was very unstable during the first part of the 20th Century. Apart from the period where the United States of America and Great Britain were thrown into war, most of the political agendas in the countries focused on repairing and stabilizing the economy; providing the people with employment, healthcare and education. 
+          </p>
+            All this work put toward recovery sadly ended in yet another war. (see Cold War)
+          </p>
+          <div class="container-fluid p-0">
+            <div class="collapse" id="p-sources">
+              <nav class="nav flex-column mb-3">
+                <a class="nav-link" href="http://english.columbia.edu/british-modernism-1"><span class="badge badge-pill badge-success">.EDU</span> British Modernism | University of Columbia</a>
+                <a class="nav-link" href="https://faculty.unlv.edu/kirschen/handouts/modernism.html"><span class="badge badge-pill badge-success">.EDU</span> Handout, Modernism | University of University of Nevada</a>
+                <a class="nav-link" href="https://www.mdc.edu/wolfson/Academic/ArtsLetters/art_philosophy/Humanities/history_of_modernism.htm"><span class="badge badge-pill badge-success">.EDU</span> History of Modernism | University of Miami Dade Collage</a>
+                <a class="nav-link" href="http://coursesite.uhcl.edu/HSH/Whitec/terms/M/modernism.htm"><span class="badge badge-pill badge-success">.EDU</span> Terms, Modernism | University of Houston Clear Lake</a>
+                <a class="nav-link" href="https://www.whitehouse.gov/1600/Presidents"><span class="badge badge-pill badge-primary">.GOV</span> The Presidents | The White House</a>
+                <a class="nav-link" href="https://www.boundless.com/art-history/textbooks/boundless-art-history-textbook/europe-and-america-from-1900-1950-ce-36/european-art-in-the-early-20th-century-223/the-early-20th-century-786-4846/"><span class="badge badge-pill badge-default">.COM</span> The early 20th Century | Boundless</a>
+              </nav>
+            </div>
+
+            <!-- Source -->
+            <a class="btn btn-secondary border-0 rounded-0 bg-faded text-center lead" data-toggle="collapse" href="#p-sources" aria-expanded="false" aria-controls="p-sources">
+              Sources
+            </a>
+
+            <!-- Back to top link -->
+            <a class="btn btn-secondary border-0 rounded-0 bg-faded lead" href="#mainNavigation">Back to top</a>
+          </div>
+        </div>
+
+        <!-- Dictators -->
+        <div class="container-fluid">
+          <h2>Dictators</h2>
+          <p class="">The dictator "side" of things...</p>
+        </div>
+
+        <!-- List leaders of "enemy" states -->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="container">
+                <img src="../img/dictators/hitler.png" class="img-fluid" alt="Adolf Hitler">
+                <p class="lead">
+                  Adolf Hitler
+                </p>
+              </div>
+              <div class="container">
+                <img src="../img/dictators/stalin.png" class="img-fluid" alt="Joseph Stalin">
+                <p class="lead">
+                  Joseph Stalin
+                </p>
+              </div>
+              <div class="container">
+                <img src="../img/dictators/mussolini.png" class="img-fluid" alt="Mussolini">
+                <p class="lead">
+                  Mussolini
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- The United States of America -->
+        <div class="container-fluid">
+          <h2>The United States of America</h2>
+          <p class="">The American "side" of things...</p>
+        </div>
+
+        <!-- List presidents -->
+        <div class="container-fluid">
+          <div class="row">
+
+            <div class="col-md-6">
+              ...
+            </div>
+
+            <!-- Presidents -->
+            <div class="col-md-6 text-white">
+              <div class="container mb-1">
+                <div class="collapse" id="th">
+                  <img src="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/26_theodore_roosevelt.jpg" class="img-fluid" alt="">
+                  <div class="republican bg-inverse">
+                    <p class="text-right">In office 1901 - 1909</p>
+                    <p>
+                      ...
+                    </p>
+                    <hr class="bg-faded mb-2" />
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="https://www.whitehouse.gov/1600/Presidents"><span class="badge badge-pill badge-primary">.GOV</span> Theodore Roosevelt | The White House</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn-block text-white text-center lead republican" data-toggle="collapse" href="#th" aria-expanded="false" aria-controls="th">
+                  Theodore Roosevelt
+                </a>
+              </div>
+              <div class="container mb-1">
+                <div class="collapse" id="wht">
+                  <img src="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/27_william_howard_h_taft.jpg" class="img-fluid" alt="">
+                  <div class="republican bg-inverse">
+                    <p class="text-right">In office 1909 - 1913</p>
+                    <p>
+                      ...
+                    </p>
+                    <hr class="bg-faded mb-2" />
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="https://www.whitehouse.gov/1600/Presidents"><span class="badge badge-pill badge-primary">.GOV</span> William Howard Taft | The White House</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn-block text-white text-center lead republican" data-toggle="collapse" href="#wht" aria-expanded="false" aria-controls="wht">
+                  William Howard Taft
+                </a>
+              </div>
+              <div class="container mb-1">
+                <div class="collapse" id="ww">
+                  <img src="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/28_woodrow_wilson.jpg" class="img-fluid" alt="">
+                  <div class="democrat bg-inverse">
+                    <p class="text-right">In office 1913 - 1921</p>
+                    <p>
+                      ...
+                    </p>
+                    <hr class="bg-faded mb-2" />
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="https://www.whitehouse.gov/1600/Presidents"><span class="badge badge-pill badge-primary">.GOV</span> Woodrow Wilson | The White House</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn-block text-white text-center lead democrat" data-toggle="collapse" href="#ww" aria-expanded="false" aria-controls="ww">
+                  Woodrow Wilson
+                </a>
+              </div>
+              <div class="container mb-1">
+                <div class="collapse" id="wgh">
+                  <img src="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/29_warren_g_harding.jpg" class="img-fluid" alt="">
+                  <div class="republican bg-inverse">
+                    <p class="text-right">In office 1921 - 1923</p>
+                    <p>
+                      ...
+                    </p>
+                    <hr class="bg-faded mb-2" />
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="https://www.whitehouse.gov/1600/Presidents"><span class="badge badge-pill badge-primary">.GOV</span> Warren G. Harding | The White House</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn-block text-white text-center lead republican" data-toggle="collapse" href="#wgh" aria-expanded="false" aria-controls="wgh">
+                  Warren G. Harding
+                </a>
+              </div>
+              <div class="container mb-1">
+                <div class="collapse" id="cc">
+                  <img src="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/30_calvin_coolidge.jpg" class="img-fluid" alt="">
+                  <div class="republican bg-inverse">
+                    <p class="text-right">In office 1923 - 1929</p>
+                    <p>
+                      ...
+                    </p>
+                    <hr class="bg-faded mb-2" />
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="https://www.whitehouse.gov/1600/Presidents"><span class="badge badge-pill badge-primary">.GOV</span> Calvin Coolidge | The White House</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn-block text-white text-center lead republican" data-toggle="collapse" href="#cc" aria-expanded="false" aria-controls="cc">
+                  Calvin Coolidge
+                </a>
+              </div>
+              <div class="container mb-1">
+                <div class="collapse" id="hh">
+                  <img src="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/31_herbert_hoover.jpg" class="img-fluid" alt="">
+                  <div class="republican bg-inverse">
+                    <p class="text-right">In office 1929 - 1933</p>
+                    <p>
+                      ...
+                    </p>
+                    <hr class="bg-faded mb-2" />
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="https://www.whitehouse.gov/1600/Presidents"><span class="badge badge-pill badge-primary">.GOV</span> Herbert Hoover | The White House</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn-block text-white text-center lead republican" data-toggle="collapse" href="#hh" aria-expanded="false" aria-controls="hh">
+                  Herbert Hoover
+                </a>
+              </div>
+              <div class="container mb-1">
+                <div class="collapse" id="fdr">
+                  <img src="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/32_franklin_d_roosevelt.jpg" class="img-fluid" alt="">
+                  <div class="democrat bg-inverse">
+                    <p class="text-right">In office 1934 - 1945</p>
+                    <p>Only president to serve for 4 terms.
+                      <br />
+                      ...
+                    </p>
+                    <hr class="bg-faded mb-2" />
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="https://www.whitehouse.gov/1600/Presidents"><span class="badge badge-pill badge-primary">.GOV</span> Franklin Delano Roosevelt | The White House</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn-block text-white text-center lead democrat" data-toggle="collapse" href="#fdr" aria-expanded="false" aria-controls="fdr">
+                  Franklin Delano Roosevelt
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- England -->
+        <div class="container-fluid">
+          <h2>United Kingdom</h2>
+          <p class="">The "English" "side" of things...</p>
+        </div>
+
+        <!-- List prime ministers -->
+        <div class="container-fluid">
+          <div class="row">
+
+            <div class="col-md-6">
+              ...
+            </div>
+
+            <!-- Prime ministers -->
+            <div class="col-md-6 text-white">.
+              <div class="container mb-1">
+                <div class="collapse" id="ab">
+                  <img src="" class="img-fluid" alt="">
+                  <div class="conservative bg-inverse">
+                    <p class="text-right">In office 1902 - 1905</p>
+                    <p>
+                      ...
+                    </p>
+                    <hr class="bg-faded mb-2" />
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="#"><span class="badge badge-pill badge-danger">.NULL</span> Arthur Balfour | ...</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn-block text-white text-center lead conservative" data-toggle="collapse" href="#ab" aria-expanded="false" aria-controls="ab">
+                  Arthur Balfour
+                </a>
+              </div>
+              <div class="container mb-1">
+                <div class="collapse" id="hcb">
+                  <img src="" class="img-fluid" alt="">
+                  <div class="liberal bg-inverse">
+                    <p class="text-right">In office 1905 - 1908</p>
+                    <p>
+                      ...
+                    </p>
+                    <hr class="bg-faded mb-2" />
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="#"><span class="badge badge-pill badge-danger">.NULL</span> Sir Henry Campbell-Bannerman | ...</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn-block text-white text-center lead liberal" data-toggle="collapse" href="#hcb" aria-expanded="false" aria-controls="hcb">
+                  Sir Henry Campbell-Bannerman
+                </a>
+              </div>
+              <div class="container mb-1">
+                <div class="collapse" id="hha">
+                  <img src="" class="img-fluid" alt="">
+                  <div class="liberal bg-inverse">
+                    <p class="text-right">In office 1908 - 1916</p>
+                    <p>
+                      ...
+                    </p>
+                    <hr class="bg-faded mb-2" />
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="#"><span class="badge badge-pill badge-danger">.NULL</span> Herbert Henry Asquith | ...</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn-block text-white text-center lead liberal" data-toggle="collapse" href="#hha" aria-expanded="false" aria-controls="hha">
+                  Herbert Henry Asquith
+                </a>
+              </div>
+              <div class="container mb-1">
+                <div class="collapse" id="dlg">
+                  <img src="" class="img-fluid" alt="">
+                  <div class="conservative bg-inverse">
+                    <p class="text-right">In office 1916 - 1922</p>
+                    <p>
+                      ...
+                    </p>
+                    <hr class="bg-faded mb-2" />
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="#"><span class="badge badge-pill badge-danger">.NULL</span> David Lloyd George | ...</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn-block text-white text-center lead conservative" data-toggle="collapse" href="#dlg" aria-expanded="false" aria-controls="dlg">
+                  David Lloyd George
+                </a>
+              </div>
+              <div class="container mb-1">
+                <div class="collapse" id="bl">
+                  <img src="" class="img-fluid" alt="">
+                  <div class="conservative bg-inverse">
+                    <p class="text-right">In office 1922 - 1923</p>
+                    <p>
+                      ...
+                    </p>
+                    <hr class="bg-faded mb-2" />
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="#"><span class="badge badge-pill badge-danger">.NULL</span> Bonar Law | ...</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn-block text-white text-center lead conservative" data-toggle="collapse" href="#bl" aria-expanded="false" aria-controls="bl">
+                  Bonar Law
+                </a>
+              </div>
+              <div class="container mb-1">
+                <div class="collapse" id="sb1">
+                  <img src="" class="img-fluid" alt="">
+                  <div class="conservative bg-inverse">
+                    <p class="text-right">In office 1923 - 1924</p>
+                    <p>
+                      ...
+                    </p>
+                    <hr class="bg-faded mb-2" />
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="#"><span class="badge badge-pill badge-danger">.NULL</span> Stanley Baldwin | ...</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn-block text-white text-center lead conservative" data-toggle="collapse" href="#sb1" aria-expanded="false" aria-controls="sb1">
+                  Stanley Baldwin
+                </a>
+              </div>
+              <div class="container mb-1">
+                <div class="collapse" id="rm1">
+                  <img src="" class="img-fluid" alt="">
+                  <div class="labour bg-inverse">
+                    <p class="text-right">In office 1923 - 1924</p>
+                    <p>
+                      ...
+                    </p>
+                    <hr class="bg-faded mb-2" />
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="#"><span class="badge badge-pill badge-danger">.NULL</span> Ramsay MacDonald | ...</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn-block text-white text-center lead labour" data-toggle="collapse" href="#rm1" aria-expanded="false" aria-controls="rm1">
+                  Ramsay MacDonald
+                </a>
+              </div>
+              <div class="container mb-1">
+                <div class="collapse" id="sb2">
+                  <img src="" class="img-fluid" alt="">
+                  <div class="conservative bg-inverse">
+                    <p class="text-right">In office 1923 - 1924</p>
+                    <p>
+                      ...
+                    </p>
+                    <hr class="bg-faded mb-2" />
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="#"><span class="badge badge-pill badge-danger">.NULL</span> Stanley Baldwin | ...</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn-block text-white text-center lead conservative" data-toggle="collapse" href="#sb2" aria-expanded="false" aria-controls="sb2">
+                  Stanley Baldwin
+                </a>
+              </div>
+              <div class="container mb-1">
+                <div class="collapse" id="rm2">
+                  <img src="" class="img-fluid" alt="">
+                  <div class="labour bg-inverse">
+                    <p class="text-right">In office 1929 - 1931</p>
+                    <p>
+                      ...
+                    </p>
+                    <hr class="bg-faded mb-2" />
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="#"><span class="badge badge-pill badge-danger">.NULL</span> Ramsay MacDonald | ...</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn-block text-white text-center lead labour" data-toggle="collapse" href="#rm2" aria-expanded="false" aria-controls="rm2">
+                  Ramsay MacDonald
+                </a>
+              </div>
+              <div class="container mb-1">
+                <div class="collapse" id="rm3">
+                  <img src="" class="img-fluid" alt="">
+                  <div class="national-labour bg-inverse">
+                    <p class="text-right">In office 1931 - 1935</p>
+                    <p>
+                      ...
+                    </p>
+                    <hr class="bg-faded mb-2" />
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="#"><span class="badge badge-pill badge-danger">.NULL</span> Ramsay MacDonald | ...</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn-block text-white text-center lead national-labour" data-toggle="collapse" href="#rm3" aria-expanded="false" aria-controls="rm3">
+                  Ramsay MacDonald
+                </a>
+              </div>
+              <div class="container mb-1">
+                <div class="collapse" id="sb3">
+                  <img src="" class="img-fluid" alt="">
+                  <div class="conservative bg-inverse">
+                    <p class="text-right">In office 1935 - 1937</p>
+                    <p>
+                      ...
+                    </p>
+                    <hr class="bg-faded mb-2" />
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="#"><span class="badge badge-pill badge-danger">.NULL</span> Stanley Baldwin | ...</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn-block text-white text-center lead conservative" data-toggle="collapse" href="#sb3" aria-expanded="false" aria-controls="sb3">
+                  Stanley Baldwin
+                </a>
+              </div>
+              <div class="container mb-1">
+                <div class="collapse" id="nc">
+                  <img src="" class="img-fluid" alt="">
+                  <div class="conservative bg-inverse">
+                    <p class="text-right">In office 1937 - 1940</p>
+                    <p>
+                      ...
+                    </p>
+                    <hr class="bg-faded mb-2" />
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="#"><span class="badge badge-pill badge-danger">.NULL</span> Neville Chamberlain | ...</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn-block text-white text-center lead conservative" data-toggle="collapse" href="#nc" aria-expanded="false" aria-controls="nc">
+                  Neville Chamberlain
+                </a>
+              </div>
+              <div class="container mb-1">
+                <div class="collapse" id="wc">
+                  <img src="" class="img-fluid" alt="">
+                  <div class="conservative bg-inverse">
+                    <p class="text-right">In office 1940 - 1945</p>
+                    <p>
+                      ...
+                    </p>
+                    <hr class="bg-faded mb-2" />
+                    <p class="mb-0 ml-3">Sources</p>
+                    <div class="small">
+                      <a class="nav-link text-muted" href="#"><span class="badge badge-pill badge-danger">.NULL</span> Winston Churchill | ...</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn-block text-white text-center lead conservative" data-toggle="collapse" href="#wc" aria-expanded="false" aria-controls="wc">
+                  Winston Churchill
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  	
+
+    <!-- Test Modal -->
+
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+      Test modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Cookie info?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Designed like "sam" propaganda?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">I understand</button>
+            <!--<button type="button" class="btn btn-primary">Ok</button>-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- End test modal -->
+
     <!-- Footer -->
-    <footer class="container-fluid bg-inverse text-white text-center">
-      <div class="container p-3">
-        Copyright (c) 2017 Hassan, Johan, Oliver, Maximilian and Samir
+    <footer class="container-fluid bg-inverse text-white p-3">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="container-fluid">
+            <p class="lead mb-0">
+              About
+            </p>
+            <p>
+              A project by Hassaan, Johan, Oliver, Maximilian and Samir on the English literary period Moderism.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="container-fluid">
+            <p>
+              ...
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center small">
+        Copyright (c) 2017 Hassaan, Johan, Oliver, Maximilian and Samir
       </div>
     </footer>
 

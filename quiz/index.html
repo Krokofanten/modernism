@@ -11,6 +11,7 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="../css/modernism.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
   </head>
   <body>
 
@@ -20,19 +21,42 @@
     </header>
 
     <!-- Main content -->
-    <div class="content">
+    <div class="container-fluid">
       <div class="block">
         <h1 class="title">Quiz</h1>
         <h1 class="subtitle">This page is just a placeholder for now...</h1>
       </div>
+      <div class="container">
+        <button onclick="populate()">Populate</button>
+        <form id="quiz">
+
+        </form>
+      </div>
     </div>
-    
+
     <!-- Footer -->
     <footer class="copyright-footer">
-      Copyright (c) 2017 Hassan, Johan, Oliver, Maximilian and Samir
+      Copyright (c) 2017 Hassaan, Johan, Oliver, Maximilian and Samir
     </footer>
 
     <!-- Scripts (loaded last for best possible performance) -->
     <script src="../js/modernism.js"></script>
+    <script>
+    function populate() {
+      var form = document.getElementById("quiz");
+      for(i = 1;i <= 2;i++) {
+        var question = document.createElement("P");
+        question.innerHTML = quiz.questions[i];
+        var answer = document.createElement("SELECT");
+        c = 0;
+        while(c < quiz.answers[i].length) {
+          answer.innerHTML += `<option value=\"${c}\">${quiz.answers[i][c]}</option>`;
+          c += 1;
+        }
+        form.appendChild(question);
+        form.appendChild(answer);
+      }
+    }
+    </script>
   </body>
 </html>
