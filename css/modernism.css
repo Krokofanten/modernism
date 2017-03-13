@@ -77,6 +77,18 @@
 	padding-left: 1rem;
 	padding-right: 1rem;
 }
+.labour {
+	background-color: rgb(220, 36, 31) !important;
+	padding: .5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.national-labour {
+	background-color: rgb(0, 128, 0) !important;
+	padding: .5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
 
 @media only screen and (max-width: 768px) {
 	.header {
