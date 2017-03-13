@@ -50,6 +50,7 @@
 	color: rgb(19, 19, 19);
 }
 
+/* U.S.A */
 .democrat {
 	background-color: rgb(14, 50, 147) !important;
 	padding: .5rem;
@@ -58,6 +59,20 @@
 }
 .republican {
 	background-color: rgb(222, 1, 0) !important;
+	padding: .5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+/* England */
+.conservative {
+	background-color: rgb(0, 135, 220) !important;
+	padding: .5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.liberal {
+	background-color: rgb(255, 215, 0) !important;
 	padding: .5rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
