@@ -2,6 +2,21 @@
  * Copyright (c) 2017
  */
 
+$('#secondary').hide();
+ $(document).scroll(function() {
+   var y = $(this).scrollTop();
+   if (y > 75) {
+     $('#secondary').fadeIn("fast");
+   } else {
+     /*$('#secondary').animate({
+        left: "+=50"
+      }, 5000, function() {
+        // Animation complete.
+      });*/
+     $('#secondary').fadeOut("fast");
+   }
+ });
+
 var quiz = {};
 
 quiz.questions = {
