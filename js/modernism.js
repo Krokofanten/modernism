@@ -5,7 +5,7 @@
  function inflate() {
    $('#main').addClass("header");
    $('#main').removeClass("bg-inverse");
-   $('.header-inner').remove Class("bg-inverse");
+   $('.header-inner').removeClass("bg-inverse");
    $('.nav-com').removeClass("pt-3 pb-3");
    $('#mainNavigation').addClass("justify-content-end");
    $('#mainNavigation').removeClass("justify-content-center");
