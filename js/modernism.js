@@ -2,27 +2,38 @@
  * Copyright (c) 2017
  */
 
-$('#secondary').hide();
- $(document).scroll(function() {
-   var y = $(this).scrollTop();
-   if (y > 75) {
-     $('#secondary').fadeIn("fast");
-   } else {
-     /*$('#secondary').animate({
-        left: "+=50"
-      }, 5000, function() {
-        // Animation complete.
-      });*/
-     $('#secondary').fadeOut("fast");
-   }
- });
+ function inflate() {
+   $('#main').addClass("header");
+   $('#main').removeClass("bg-inverse");
+   $('.header-inner').remove Class("bg-inverse");
+   $('.nav-com').removeClass("pt-3 pb-3");
+   $('#mainNavigation').addClass("justify-content-end");
+   $('#mainNavigation').removeClass("justify-content-center");
+   $('.navbar-brand.brand').show();
+ }
+
+ function deflate() {
+   $('#main').removeClass("header");
+   $('#main').addClass("bg-inverse");
+   $('.header-inner').addClass("bg-inverse");
+   $('.nav-com').addClass("pt-3 pb-3");
+   $('#mainNavigation').removeClass("justify-content-end");
+   $('#mainNavigation').addClass("justify-content-center");
+   $('.navbar-brand.brand').hide();
+ }
+
+/**
+ * Source: https://jsfiddle.net/cse_tushar/Dxtyu/141/
+ * Start -->
+ */
 
  $(document).ready(function () {
     $(document).on("scroll", onScroll);
 
-    //smoothscroll
+    // Smooth Scrolling
     $('a[href^="#"]').on('click', function (e) {
         e.preventDefault();
+
         $(document).off("scroll");
 
         $('a').each(function () {
@@ -34,21 +45,38 @@ $('#secondary').hide();
             menu = target;
         $target = $(target);
         $('html, body').stop().animate({
-            'scrollTop': $target.offset().top()+2
-        }, 500, 'swing', function () {
+            'scrollTop': $target.offset().top+2
+        }, 250, 'swing', function () {
             window.location.hash = target;
             $(document).on("scroll", onScroll);
         });
     });
 });
 
+var isDeflated = false;
+
 function onScroll(event){
     var scrollPos = $(document).scrollTop();
-    $('#secondary-sections a').each(function () {
+    console.log(scrollPos);
+    if (scrollPos < 50) {
+      if (isDeflated) {
+        inflate();
+        isDeflated = false;
+        console.log("Inflating navbar");
+      }
+    } else {
+      if (!isDeflated) {
+        deflate();
+        isDeflated = true;
+        console.log("Deflating navbar");
+      }
+
+    }
+    $('#mainNavigation a').each(function () {
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-            $('#secondary-sections a').removeClass("nav-com-active");
+            $('#mainNavigation a').removeClass("nav-com-active");
             currLink.addClass("nav-com-active");
         }
         else{
@@ -56,6 +84,10 @@ function onScroll(event){
         }
     });
 }
+
+/**
+ * <-- End
+ */
 
 var quiz = {};
 
